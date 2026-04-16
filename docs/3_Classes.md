@@ -18,6 +18,18 @@
 
 - status
 
+- contratarPlano()
+
+- agendarAula()
+
+- cancelarAgendamento()
+
+- atualizarStatus()
+
+- registrarAcesso()
+
+- receberNotificacao()
+
 
 ***Plano***
 
@@ -32,6 +44,12 @@
 - valor
 
 - ativo
+
+- ativar()
+
+- desativar()
+
+- alterarValor()
 
 
 ***Pagamento***
@@ -48,6 +66,16 @@
 
 - status
 
+- aplicarCupom()
+
+- parcelar()
+
+- registrar()
+
+- confirmar()
+
+- cancelar()
+
 
 ***Acesso***
 
@@ -58,6 +86,12 @@
 - dataHora
 
 - autorizado
+
+- verificaRegularidade()
+
+- libera()
+
+- bloqueia()
 
 
 ***Aula***
@@ -72,6 +106,12 @@
 
 - capacidadeMaxima
 
+- cancela()
+
+- alteraStatus()
+
+- registraPresenca()
+
 
 ***Agendamento***
 
@@ -83,6 +123,14 @@
 
 - status
 
+- alteraData()
+
+- cancelaAgenda()
+
+- registraInstrutor()
+
+- reserva()
+
 
 ***Presenca***
 
@@ -93,6 +141,12 @@
 - data
 
 - presente
+
+- registra()
+
+- confirma()
+
+- JustificaFalta()
 
 
 ***AvaliacaoFisica***
@@ -113,6 +167,14 @@
 
 - anexo
 
+- vinculaAluno()
+
+- registraRecomendacoes()
+
+- criaPlanodeAula()
+
+- anexarArquivo()
+
 
 ***Notificacao***
 
@@ -128,6 +190,12 @@
 
 - mensagem
 
+- enviaAgenda()
+
+- enviaInadimplencia()
+
+- marcarComoLida()
+
 
 ***Instrutor***
 
@@ -139,6 +207,18 @@
 
 - especialidade
 
+- realizaAvaliacaoFisica()
+
+- registraAula()
+
+- AplicaAula()
+
+- registraPresenca()
+
+- consultaAgenda()
+
+- cancelaAgenda()
+
 
 ***Recepcionista***
 
@@ -148,6 +228,16 @@
 
 - nome
 
+- cadastraAluno
+
+- gerenciaAgenda()
+
+- gerenciaAcesso()
+
+- cobraInadimplentes()
+
+- registraPagamento()
+
 
 ***Gerente***
 
@@ -155,4 +245,12 @@
 
 - idGerente
 
-nome
+- nome
+
+- cadastraPlanos()
+
+- alteraPlanos()
+
+- alteraAlunos()
+
+- emiteRelatorios()
